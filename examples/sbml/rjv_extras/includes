@@ -1,0 +1,5 @@
+
+export VIRTENV_NAME=rjv_virtenv
+export MODELSPEC_PATH=${HOME}/repos/forks/modelspec
+export REQUIRED_PIP_PACKAGES="pytest lxml"
+export VIRT_ENV=$(python3 -c 'import sys ; print("/".join(sys.prefix.split("/")[-2:]))')
